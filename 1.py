@@ -1,4 +1,4 @@
-No#!/usr/bin/python
+#!/usr/bin/python
 # -*- coding: UTF-8 -*-
 
 from os import system, name
