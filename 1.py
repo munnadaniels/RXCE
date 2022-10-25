@@ -1,4 +1,4 @@
-#!/usr/bin/python
+No#!/usr/bin/python
 # -*- coding: UTF-8 -*-
 
 from os import system, name
@@ -62,7 +62,6 @@ def clear():
 
 clear()
 y=1
-newperiod=newperiod
 banner='figlet RXCE'
 thisway=[2,6,8,11,12,15,16,18,19,20]
 thatway=[1,3,4,5,7,9,10,14,13,17]
@@ -71,7 +70,7 @@ i=1
 while(y):
     clear()
     system(banner)
-    print("Enter ",newperiod," Parity Price :")
+    print("Enter "," Parity Price :")
     current=input()
     current=int(current)
     chalo()
@@ -89,29 +88,28 @@ while(y):
         n=int(current)%10
         if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
             if current in numbers:
-                print(newperiod+1," : RED")
+                print(1," : RED")
             else:
-                print(newperiod+1," : GREEN")
+                print(1," : GREEN")
         else:
             if current in numbers:
-                print(newperiod+1," : GREEN")
+                print(1," : GREEN")
             else:
-                print(newperiod+1," : RED")
+                print(1," : RED")
     if i in thatway:
         m=getSum(current)+1
         n=int(current)%10
         if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
             if current in numbers:
-                print(newperiod+1,": RED")
+                print(1,": RED")
             else:
-                print(newperiod+1,": GREEN")
+                print(1,": GREEN")
         else:
             if current in numbers:
-                print(newperiod+1,": GREEN")
+                print(1,": GREEN")
             else:
-                print(newperiod+1,": RED")
+                print(1,": RED")
     i=i+1
-    newperiod+=1
     numbers.append(current)
     y=input("Do you want to play : Press 1 and 0 to exit \n")
     if(y==0):
