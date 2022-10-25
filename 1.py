@@ -13,7 +13,6 @@ from datetime import date
 expirydate = datetime.date(2022, 10, 15)
 #expirydate = datetime.date(2022, 12, 30)
 today=date.today()
-def hero():
 
 def chalo():
     done = False
