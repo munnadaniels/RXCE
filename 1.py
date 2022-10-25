@@ -122,5 +122,4 @@ while(y):
         system('figlet Thank you!!')
         print("Play on next specified time!!")
         print("-----------Current Time UP----------")
-        sys.exit(" \n \n \n
         #print(numbers)
