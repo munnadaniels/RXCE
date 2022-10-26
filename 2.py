@@ -10,7 +10,6 @@ from datetime import date
 expirydate = datetime.date(2021, 9, 15)
 #expirydate = datetime.date(2021, 12, 30)
 today=date.today()
-def hero():
 
     def chalo():
         done = False
@@ -60,7 +59,6 @@ def hero():
 
     clear()
     y=1
-    newperiod=period
     banner='figlet RXCE'
     thisway=[2,6,8,11,12,15,16,18,19,20]
     thatway=[1,3,4,5,7,9,10,14,13,17]
@@ -119,5 +117,4 @@ def hero():
             system('figlet Thank you!!')
             print("Play on next specified time!!")
             print("-----------Current Time UP----------")
-            sys.exit(" \n \n \n
             #print(numbers)
