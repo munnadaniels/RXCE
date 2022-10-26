@@ -30,7 +30,7 @@ def chalo():
     t.start()
 
     #long process here
-    time.sleep(20)
+    time.sleep(10)
     done = True
 
 def chalo1():
