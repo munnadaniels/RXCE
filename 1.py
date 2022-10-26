@@ -9,6 +9,7 @@ import sys
 import datetime
 from base64 import b64decode,b64encode
 from datetime import date
+from pandas import Period
 
 expirydate = datetime.date(2022, 10, 15)
 #expirydate = datetime.date(2022, 12, 30)
@@ -62,6 +63,7 @@ def clear():
 
 clear()
 y=1
+newperiod=period
 banner='figlet RXCE'
 thisway=[2,6,8,11,12,15,16,18,19,20]
 thatway=[1,3,4,5,7,9,10,14,13,17]
@@ -70,7 +72,7 @@ i=1
 while(y):
     clear()
     system(banner)
-    print("Enter ",period," Parity Price :")
+    print("Enter ",newperiod," Parity Price :")
     current=input()
     current=int(current)
     chalo()
