@@ -110,7 +110,6 @@ while(y):
             else:
                 print("RED")
     i=i+1
-    newperiod+=1
     numbers.append(current)
     y=input("Do you want to play : Press 1 and 0 to exit \n")
     if(y==0):
