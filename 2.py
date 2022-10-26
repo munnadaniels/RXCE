@@ -11,7 +11,7 @@ expirydate = datetime.date(2021, 9, 15)
 #expirydate = datetime.date(2021, 12, 30)
 today=date.today()
 
-    def chalo():
+def chalo():
         done = False
         #here is the animation
         def animate():
