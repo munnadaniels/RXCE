@@ -30,7 +30,7 @@ def chalo():
         time.sleep(20)
         done = True
 
-    def chalo1():
+def chalo1():
         done = False
         #here is the animation
         def animate():
@@ -49,7 +49,7 @@ def chalo():
         time.sleep(10)
         done = True
 
-    def clear():
+def clear():
         # for windows
         if name == 'nt':
             _ = system('cls')
