@@ -58,12 +58,12 @@ def clear():
             _ = system('clear')
 
 clear()
-    y=1
-    banner='figlet RXCE'
-    thisway=[2,6,8,11,12,15,16,18,19,20]
-    thatway=[1,3,4,5,7,9,10,14,13,17]
-    numbers=[]
-    i=1
+y=1
+banner='figlet RXCE'
+thisway=[2,6,8,11,12,15,16,18,19,20]
+thatway=[1,3,4,5,7,9,10,14,13,17]
+numbers=[]
+i=1
     while(y):
         clear()
         system(banner)
