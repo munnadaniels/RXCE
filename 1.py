@@ -63,7 +63,6 @@ def clear():
 
 clear()
 y=1
-newperiod= period
 banner='figlet RXCE'
 thisway=[2,6,8,11,12,15,16,18,19,20]
 thatway=[1,3,4,5,7,9,10,14,13,17]
@@ -72,7 +71,7 @@ i=1
 while(y):
     clear()
     system(banner)
-    print("Enter ",newperiod," Parity Price :")
+    print("Enter "," Parity Price :")
     current=input()
     current=int(current)
     chalo()
@@ -90,27 +89,27 @@ while(y):
         n=int(current)%10
         if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
             if current in numbers:
-                print(newperiod+1," : RED")
+                print("RED")
             else:
-                print(newperiod+1," : GREEN")
+                print("GREEN")
         else:
             if current in numbers:
-                print(newperiod+1," : GREEN")
+                print("GREEN")
             else:
-                print(newperiod+1," : RED")
+                print("RED")
     if i in thatway:
         m=getSum(current)+1
         n=int(current)%10
         if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
             if current in numbers:
-                print(newperiod+1,": RED")
+                print("RED")
             else:
-                print(newperiod+1,": GREEN")
+                print("GREEN")
         else:
             if current in numbers:
-                print(newperiod+1,": GREEN")
+                print("GREEN")
             else:
-                print(newperiod+1,": RED")
+                print("RED")
     i=i+1
     newperiod+=1
     numbers.append(current)
