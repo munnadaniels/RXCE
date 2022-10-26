@@ -57,7 +57,7 @@ def clear():
         else:
             _ = system('clear')
 
-    clear()
+clear()
     y=1
     banner='figlet RXCE'
     thisway=[2,6,8,11,12,15,16,18,19,20]
