@@ -70,7 +70,7 @@ i=1
 while(y):
     clear()
     system(banner)
-    print("Enter ",newperiod," Parity Price :")
+    print("Enter ",period," Parity Price :")
     current=input()
     current=int(current)
     chalo()
