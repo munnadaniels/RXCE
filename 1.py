@@ -21,7 +21,7 @@ def chalo():
         for c in itertools.cycle(['|', '/', '-', '\\']) :
             if done:
                 break
-            sys.stdout.write('\rhacking in the parity server for next colour--------- ' + c)
+            sys.stdout.write('\rhacking in the parity server for next colour--------- ')
             sys.stdout.flush()
             time.sleep(0.1)
         sys.stdout.write('\rDone!     ')
