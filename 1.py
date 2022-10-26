@@ -70,7 +70,7 @@ i=1
 while(y):
     clear()
     system(banner)
-    print("Enter "," Parity Price :")
+    print("Enter ",newperiod," Parity Price :")
     current=input()
     current=int(current)
     chalo()
@@ -88,28 +88,29 @@ while(y):
         n=int(current)%10
         if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
             if current in numbers:
-                print(1," : RED")
+                print(newperiod+1," : RED")
             else:
-                print(1," : GREEN")
+                print(newperiod+1," : GREEN")
         else:
             if current in numbers:
-                print(1," : GREEN")
+                print(newperiod+1," : GREEN")
             else:
-                print(1," : RED")
+                print(newperiod+1," : RED")
     if i in thatway:
         m=getSum(current)+1
         n=int(current)%10
         if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
             if current in numbers:
-                print(1,": RED")
+                print(newperiod+1,": RED")
             else:
-                print(1,": GREEN")
+                print(newperiod+1,": GREEN")
         else:
             if current in numbers:
-                print(1,": GREEN")
+                print(newperiod+1,": GREEN")
             else:
-                print(1,": RED")
+                print(newperiod+1,": RED")
     i=i+1
+    newperiod+=1
     numbers.append(current)
     y=input("Do you want to play : Press 1 and 0 to exit \n")
     if(y==0):
