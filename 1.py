@@ -9,7 +9,6 @@ import sys
 import datetime
 from base64 import b64decode,b64encode
 from datetime import date
-import Period
 
 expirydate = datetime.date(2022, 10, 26)
 #expirydate = datetime.date(2022, 12, 30)
